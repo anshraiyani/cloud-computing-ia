@@ -1,5 +1,3 @@
-# Cloud Computing IA-2
-
 ## Problem Statement:
 Create any three-tier application using Docker, using a multi-container setup. Build at least one docker image using Dockerfile. You are free to use your old projects, build new projects or take any project from GitHub. However, if you are using a project from Github, properly cite the original author of the code in your blog. 
 
@@ -24,7 +22,7 @@ We wil use ``` docker compose ``` to create a multi-container setup.
     EXPOSE 3000 
     CMD [ "yarn", "start" ] 
     ```
-    ``` NOTE: ``` remove "PORT=8000" section from start script in package.json. <br>
+    <b>NOTE</b> remove "PORT=8000" section from start script in package.json. <br>
     it should look something like this:
     ```json
     "scripts": {
