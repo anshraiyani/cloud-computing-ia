@@ -150,7 +150,7 @@ We wil use ``` docker compose ``` to create a multi-container setup.
 
 11. Push Images to DockerHub
     ![image info](./ss/17.png)
-
+    
     ![image info](./ss/18.png)
 
     ![image info](./ss/19.png)
